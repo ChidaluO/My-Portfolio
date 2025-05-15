@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins.weight@100;200;300;400;500;600&display=swap');
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f7f8fa, #dff1ff);
+    color: #0a0101;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(abstract-flat-green-and-blue-background-free-vector.jpg);
+  }
+  
+  nav {
+    background-color: #5c5c63;
+    padding: 1rem 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f7f8fa;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #d6273c;
+  }
+  
+  main {
+    flex: 1;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  main h1 {
+    font-size: 2.8rem;
+    color: #1a1a2e;
+    margin-bottom: 1rem;
+  }
+  
+  main p {
+    font-size: 1.3rem;
+    max-width: 800px;
+    line-height: 1.6;
+    color: #444;
+    background-color: #ffffffcc;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+.profile_image {
+  border-radius: 30px;
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+
+  
