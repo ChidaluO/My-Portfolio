@@ -9,11 +9,11 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #f7f8fa, #dff1ff);
-    color: #0a0101;
+    color: #942323;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(abstract-flat-green-and-blue-background-free-vector.jpg);
+    background-image: url(abstract-black-lines-geometric-background_677411-2748.avif);
   }
   
   nav {
@@ -51,7 +51,7 @@
   
   main h1 {
     font-size: 2.8rem;
-    color: #1a1a2e;
+    color: #dc2020;
     margin-bottom: 1rem;
   }
   
